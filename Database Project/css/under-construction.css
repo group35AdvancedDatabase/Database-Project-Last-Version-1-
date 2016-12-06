@@ -1,0 +1,50 @@
+﻿.under-construction {
+    width: 100%;
+    margin: 0 auto;
+    background: url("../img/constr.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
+.under-construction:after {
+    content: "";
+    visibility: hidden;
+    display: none;
+    clear: both;
+    height: 0;
+}
+
+.div-width-banner {
+    padding: 120px 0 120px 0;
+}
+
+.div-width-banner:after {
+    content: "";
+    height: 0;
+    visibility: hidden;
+    display:block;
+    clear:both;
+}
+
+.inside-under-construction {
+    margin: 0 auto;
+    width: 600px;
+    background-color: rgba(0,0,0,0.4);
+    padding: 60px 50px 60px 50px;
+    color: #ffffff;
+    font-family: 'Abel', sans-serif;
+}
+
+.inside-under-construction h1 {
+    font-size: 46px;
+}
+
+.inside-under-construction h2 {
+    font-size: 38px;
+}

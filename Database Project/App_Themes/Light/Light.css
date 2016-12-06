@@ -1,0 +1,62 @@
+﻿body {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+}
+
+.navbar-default a {
+    color: #000 !important;
+}
+
+.head-and-links {
+    background-color: #ffffff;
+}
+
+.footer-nav {
+    background-color: #F4F1EF;
+}
+
+.footer-nav a {
+    color: #000;
+}
+
+.dd-list {
+    background-color: #ADE1FF;
+}
+
+.choose-button {
+    background-color: #D6D3D1;
+}
+
+.choice-label {
+    color: #720A0A;
+}
+
+.container--header__topLine h1, .datalist-page h1 {
+    background-color: #F4BEBE;
+    color: #918F8E;
+}
+
+.container--header__topLine h2, .datalist-page h2 {
+    color: #000;
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+}
+
+.inside-container, .datalist-page {
+    background-color: #fff;
+    border-bottom: 3px solid #000;
+}
+
+.input-group {
+    background-color: #5ED9FF;
+}
+
+.six-blocks {
+    background-color: #F6F9F4;
+    color: #000;
+}

@@ -1,0 +1,44 @@
+﻿
+.inputs {
+    clear: both;
+    margin: 0 auto;
+}
+
+.inputs ul {
+    padding: 0;
+    margin: 0;
+}
+
+.ingr-group {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 622px !important;
+    padding-bottom: 20px;
+}
+
+.label-here {
+    width: 200px;
+    margin-bottom: 20px;   
+    padding: 10px 0 10px 0;
+}
+
+.cancelButton, .submitButton {
+    width: 48%;
+    float: left;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Opel Sans';
+}
+
+.cancelButton {
+    float: right;
+}
+
+
+/*.label-here:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear:both;
+    height: 100%;
+}*/

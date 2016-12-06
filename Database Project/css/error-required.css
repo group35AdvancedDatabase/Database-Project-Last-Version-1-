@@ -1,0 +1,27 @@
+﻿.error-required {
+    color: #ff0000;
+    float: left;
+    clear:both;
+    font-weight: 100;
+    font-style:italic;
+    font-family: 'Opel Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.error-required-desc {
+    color: #ff0000;
+    font-weight: bold;
+    font-style:italic;
+    margin-left: 110px;
+}
+
+.ingr-err {
+    padding-left: 25px !important;
+}
+
+.no-data {
+    font-size: 45px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 30px;
+}

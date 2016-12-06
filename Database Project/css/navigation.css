@@ -1,0 +1,36 @@
+﻿.navbar {
+    margin-bottom: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.mainNav {
+    padding-left: 30px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.main-logo {
+    height: 75px;
+    width: 125px;
+    position: relative;
+    top: -27px;
+}
+
+.navbar-nav {
+    float: right;
+    padding-right: 100px;
+}
+
+.navbar-nav li {
+    padding: 0 20px 0 20px;
+    font-family:'Abel', sans-serif;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.navbar-nav li a:hover {
+    background-color: #31b0d5 !important;
+    border-right: #000000 !important;
+    border-left: #000000 !important;
+    color: #ffffff !important;
+}

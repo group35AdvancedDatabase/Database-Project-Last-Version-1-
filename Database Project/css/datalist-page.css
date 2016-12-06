@@ -1,0 +1,25 @@
+﻿.datalist-page:after {
+    content: "";
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    display: block;
+}
+
+.datalist-page h1 {
+    margin: 0;
+    background-color: #969493;
+    padding: 20px 0 40px 0;
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    color: #F9B3B3;
+}
+
+.datalist-page h2 {
+    margin: 0;
+    background-color: #F9B3B3;
+    padding: 10px 0 20px 0;
+    font-family: 'Century Gothic';
+    margin-bottom: 50px;
+    color: #fff;
+}

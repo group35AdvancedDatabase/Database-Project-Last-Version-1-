@@ -1,0 +1,50 @@
+﻿th {
+    color: #fff;
+    background-color: #B72424;
+    border-top: none !important;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 20px;
+    border-right: 1px #fff solid;
+}
+
+th:first-child {
+    width: 400px;
+}
+
+th:nth-child(2n) {
+    width: 200px;
+}
+
+th:last-child {
+    width: 200px;
+}
+
+tr td:last-child, th:last-child {
+    border-right: none;
+}
+
+/*#itemPlaceholderContainer tr {
+    border-bottom: 2px red solid;
+}*/
+
+td {
+    color:#C41515;
+    border-top: none !important;
+    text-align:left;
+    font-weight: 100;
+    border-right: 1px white solid;
+}
+
+.table tr:nth-child(2n+1){
+    background-color:#D1D6D4;
+}
+.table tr:nth-child(2n){
+    background-color: #BDC1C0;
+}
+
+table {
+    margin: 0 auto;
+}

@@ -1,0 +1,96 @@
+﻿@import "footer.css";
+@import "navigation.css";
+@import "home-page.css";
+@import "scrollBar.css";
+@import "six-blocks.css";
+@import "under-construction.css";
+@import "container--addRecipe.css";
+@import "error-required.css";
+@import "ingridients.css";
+@import "inputs.css";
+@import "type-here.css";
+@import "inside-container.css";
+@import "setup-page-sheet.css";
+@import "table-style.css";
+@import "datalist-page.css";
+@import "mainError.css";
+@import "detailsImage.css";
+
+
+html {
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+body {
+    margin-bottom: 60px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -579px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+
+.first-five-inputs {
+    width: 600px;
+
+}
+
+ input[type=text], input[type=number], textarea { font-size:16px; 
+              border-width:2px; 
+              padding:8px; 
+              border-style:hidden;
+              border-color:#403840; 
+              background-color:aliceblue;
+              border-radius:7px; box-shadow:
+              0px 0px 7px 0px rgba(25,107,4,.35);
+              color:#000; 
+              transition: all ease-in-out 0.3s;
+
+ }
+
+input[type=text]:focus, input[type=number], textarea:focus {
+    background-color: white;
+    outline:none;
+}
+
+textarea {
+    float: left;
+    margin-top: 15px;
+    background-color: white !important;
+    border: 1px solid black !important;
+}
+
+.textBoxPage {
+    width: 140px;
+    background-color: white !important;
+    border: 1px solid black !important;
+    height: 22px;
+    display: none;
+    box-shadow: none !important;
+}
+
+.image-box {
+    background-color: white !important;
+    box-shadow: none !important;
+    border: 1px solid black !important;
+    width: 300px;
+}
+
+.label-image {
+    margin-top: 10px;
+    display:block;
+    text-align: left;
+    width: 300px;
+}

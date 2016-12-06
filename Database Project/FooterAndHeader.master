@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FooterAndHeader.master.cs" Inherits="FooterAndHeader" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+            <%--Title of content page--%>
+        </asp:ContentPlaceHolder>
+    </title>
+    <link rel="shortcut icon" href="img/votestar.png" type="image/png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans+Condensed:300" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Chathura" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+    <form id="form1" runat="server">
+            <nav class="navbar navbar-default mainNav">
+                <div class="container-fluid">
+                    <div class="navbar navbar-header">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/main-logo.png" class="main-logo"/>
+                        </a>
+                    </div>
+                    <ul class="nav navbar-nav text-right">
+                        <li><a href="HomePage.aspx">Home</a></li>
+                        <li><a href="Recipes.aspx">Recipes</a></li>
+                        <li><a href="AddRecipe.aspx">Add Recipe</a></li>
+                        <li><a href="Search.aspx">Search</a></li>
+                        <li><a href="ContactUs.aspx">Contact Us</a></li>
+                        <li><a href="SetupPage.aspx">Setup Page</a></li>
+                    </ul>
+                </div>
+            </nav> <!-- End of nav -->
+        <!-- Space for Content -->            
+        <asp:ContentPlaceHolder ID="forContent" runat="server">
+
+        </asp:ContentPlaceHolder>
+        <!-- End of Space for Content -->
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="head-and-links">
+                     <div class="head">
+                         <h1>Connect socially with Fast Cook</h1>
+                     </div>
+                     <div class="row links">
+                         <!-- Facebook -->
+                        <div class="col-sm-3 text-center facebook">
+                           <a href="https://www.facebook.com/" class="footer-a-links">
+                            <div class="inside-footer-links-link">
+                                <div class="direct-link">
+                                    <div class="img-div-out">
+                                    <img src="img/facebook-icon.png" class="img-inside-link"/>
+                                    </div>
+                                    <p class="img-desc">Read news on Facebook</p>
+                                </div>
+                            </div>
+                           </a>
+                        </div> <!-- End of facebook -->
+                            
+                         <!-- Twitter -->
+                        <div class="col-sm-3 text-center twitter">
+                             <a href="https://twitter.com/" class="footer-a-links">
+                            <div class="inside-footer-links-link">
+                                <div class="direct-link">
+                                    <div class="img-div-out">
+                                    <img src="img/twitter-icon.png" class="img-inside-link"/>
+                                    </div>
+                                    <p class="img-desc">Comment us on Twitter</p>
+                                </div>
+                            </div>
+                           </a>
+                        </div> <!-- End of Twitter -->
+
+                         <!-- Instagram -->
+                        <div class="col-sm-3 text-center instagram">
+                           <a href="https://www.instagram.com/" class="footer-a-links">
+                            <div class="inside-footer-links-link">
+                                <div class="direct-link">
+                                    <div class="img-div-out">
+                                    <img src="img/instagram-icon.png" class="img-inside-link"/>
+                                    </div>
+                                    <p class="img-desc">Watch images in Instagram</p>
+                                </div>
+                            </div>
+                           </a>
+                        </div> <!-- End of Instagram -->
+
+                        <!-- Youtube -->
+                        <div class="col-sm-3 text-center youtube">
+                             <a href="https://www.youtube.com/" class="footer-a-links">
+                            <div class="inside-footer-links-link">
+                                <div class="direct-link">
+                                    <div class="img-div-out">
+                                    <img src="img/youtube-icon.png" class="img-inside-link"/>
+                                    </div>
+                                    <p class="img-desc">Watch videos on Youtube</p>
+                                </div>
+                            </div>
+                           </a>
+                        </div> <!-- End of Youtube --> 
+                     </div>
+                    </div>
+                    <div class="footer-nav">
+                         <div class="row lowest-div">
+                             <div class="col-sm-3 link-inside-footer-nav text-center">
+                                 <a href="HomePage.aspx">Home</a>
+                             </div>
+                             <div class="col-sm-3 link-inside-footer-nav text-center">
+                                 <a href="Recipes.aspx">Recipes</a>
+                             </div>
+                             <div class="col-sm-3 link-inside-footer-nav text-center">
+                                 <a href="AddRecipe.aspx">Add Recipe</a>
+                             </div>
+                             <div class="col-sm-3 link-inside-footer-nav text-center">
+                                 <a href="Search.aspx">Search</a>
+                             </div>
+                         </div>
+                         <div class="row my-logo">
+                             <div class="col-sm-12 my-logo-inside text-center">
+                                 <h2>Salnichenko Viktor's Recipes Book &copy; 2016 - 2017. All rights reserved</h2>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </footer>
+    </form>
+        </div>
+</body>
+</html>

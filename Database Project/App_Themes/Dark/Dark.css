@@ -1,0 +1,56 @@
+﻿body {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar-default {
+    background-color: #868789;
+    border: none;
+}
+
+.navbar-default a {
+    color: #fff !important;
+}
+
+.head-and-links {
+    background-color: #7DBECE;
+}
+
+.footer-nav {
+    background-color:#1C0606;
+}
+
+.dd-list {
+    background-color: #37656B;
+}
+
+.choose-button {
+    background-color: #2C3532;
+}
+
+.container--header__topLine h1, .datalist-page h1 {
+    background-color: #666463;
+    color: #720A0A;
+}
+
+.container--header__topLine h2, .datalist-page h2 {
+    color: #fff;
+    background-color: #720A0A;
+}
+
+.inside-container {
+    background-color: #1E1E1D;
+}
+
+.input-group {
+    background-color: #3A3939;
+}
+
+.six-blocks {
+    background-color: #545352;
+    color: #fff;
+}
+
+.opport {
+    border-bottom: 1px solid #fff;
+}

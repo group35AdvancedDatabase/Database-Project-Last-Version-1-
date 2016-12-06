@@ -1,0 +1,83 @@
+﻿.intro {
+    background-image: url('../img/bgc-food.jpg');
+        background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.page-description {
+    width: 500px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.page-description p {
+    font-size: 18px;
+    display: block;
+    margin-top: 40px;
+    font-family: Calibri, sans-serif;
+}
+
+.page-description h1 {
+   font-family: 'Amatic SC', cursive;
+   font-size: 47px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.follow-media {
+    padding: 0;
+}
+
+.follow-media li {
+    list-style-type: none;
+    display: inline-block;
+    opacity: 0.5;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all ease-in-out .1s;
+}
+
+.follow-media li:hover {
+    opacity: 1;
+    animation-name: took;
+    animation-duration: 2s;
+}
+
+.nav-img {
+    width: 65px;
+    height: 65px;
+}
+
+.try-button {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: all ease-in-out .2s;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.follow {
+    font-family: 'Abel', sans-serif !important;
+    font-size: 30px !important;
+    display: block;
+}
+
+.bgc-img {
+    background-color: rgba(0,0,0,0.35);
+}
+
+@keyframes took {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(20%);
+    }
+}

@@ -1,0 +1,79 @@
+﻿.setup-page-container {
+    height: 300px;
+}
+
+.dd-list {
+    height: 200px;
+    background-color:cadetblue;
+    position: relative;
+}
+
+.dd-list h1 {
+    margin: 0 auto;
+    margin-top: 0;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+.choose-button {
+    height: 100px;
+    background-color:darkcyan; 
+}
+
+
+.choose-button p {
+    position: relative;
+    top: 30%;
+    width: 200px;
+    margin: 0 auto;
+    height: 34px;
+}
+
+.choice-label {
+    font-family: 'Chathura', sans-serif;
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+    color: #38E4E5;
+    font-weight: bold;
+}
+
+.buttonChoose {
+    width: 200px;
+}
+
+.dropdown-list-theme {
+    width: 230px;
+   height: 34px;
+   overflow: hidden;
+   background: url("../img/down.png") no-repeat right #cbf;
+   border: 1px solid #ccc;
+   transition: all ease-in-out .2s;
+   position: relative;
+   top: 81px;
+   box-shadow: 0 0 2px #000;
+   font-family: 'Roboto', sans-serif;
+   padding-left: 20px;
+   font-weight: bold;   
+   font-size: 21px; 
+   color: #fff;
+}
+
+.dropdown-list-theme {
+   -moz-appearance: none;  
+   -webkit-appearance:none;
+}
+
+.dropdown-list-theme::-ms-expand {
+    display: none;
+}
+
+.dropdown-list-theme:focus {
+    outline: none;
+     background: url("../img/up.png") no-repeat right #000;
+}
